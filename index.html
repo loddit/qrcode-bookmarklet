@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>qrcode-bookmarklet</title>
+  </head>
+  <body>
+    <h1>qrcode-bookmarklet</h1>
+
+    <p>
+      Share QR code image for current tab's URL
+    </p>
+    <p>
+      Powerd by goqr.me API http://goqr.me/api/
+    </p>
+
+    <h2>Useage</h2>
+
+    <p>
+      Grag this link into your bookmark bar, just click it when you want to open current page by your mobile device.
+    </p>
+
+    <a href="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + location.href,'qrcode','width=200,height=200,menubar=no,resizable=no,location=no,top=' + (screen.height/2 - 100) + ',left=' + (screen.width/2 -100));">QRCODE-Bookmarklet</a> ←  Drag me! Into your bookmark bar
+
+    <p>
+      2015 @loddit
+    </p>
+  </body>
+</html>

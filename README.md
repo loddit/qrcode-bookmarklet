@@ -1,5 +1,5 @@
 # qrcode-bookmarklet
-Show QR code image for current tab's URL
+Share QR code image for current tab's URL
 
 Powerd by goqr.me API http://goqr.me/api/
 
